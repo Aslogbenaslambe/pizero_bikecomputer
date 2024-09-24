@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pizerobikecomputer:
+    image: pizerobikecomputer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
